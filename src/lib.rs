@@ -1,7 +1,7 @@
 use proc_macro::TokenStream;
 
 #[proc_macro]
-pub fn fstr(item: TokenStream) -> TokenStream {
+pub fn jstr(item: TokenStream) -> TokenStream {
     let mut string = String::from("[");
     string.push_str(
         &item
