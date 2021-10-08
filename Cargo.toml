@@ -1,0 +1,13 @@
+[package]
+name = "jstr"
+description = "Proc macro to do simple string interpolation as an array join"
+license = "GPL-3.0-or-later"
+authors = ["Caleb Smith <email@calebdixonsmith.top>"]
+repository = "https://github.com/NiceneNerd/jstr"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
