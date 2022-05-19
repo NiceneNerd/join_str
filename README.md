@@ -1,6 +1,6 @@
 # join_str
 
-Simple proc macro to do simple string interpolation as an array join
+Simple proc macro to do simple string interpolation as an array join, since it's one of the most efficient methods.
 
 ```rust
 use join_str::jstr;
