@@ -1,9 +1,9 @@
-# jstr
+# join_str
 
 Simple proc macro to do simple string interpolation as an array join
 
 ```rust
-use jstr::jstr;
+use join_str::jstr;
 
 fn main () {
   let actor_name = "GameROMPlayer";
@@ -17,7 +17,7 @@ fn main () {
 If your interpolated code contains quotation marks, pass a raw string to the macro:
 
 ```rust
-use jstr::jstr;
+use join_str::jstr;
 use std::collections::HashMap;
 
 fn main () {
