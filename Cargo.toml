@@ -1,9 +1,9 @@
 [package]
-name = "jstr"
+name = "join_str"
 description = "Proc macro to do simple string interpolation as an array join"
 license = "GPL-3.0-or-later"
 authors = ["Caleb Smith <email@calebdixonsmith.top>"]
-repository = "https://github.com/NiceneNerd/jstr"
+repository = "https://github.com/NiceneNerd/join_str"
 version = "0.1.0"
 edition = "2021"
 
